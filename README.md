@@ -7,16 +7,22 @@ BioRxiv link: https://doi.org/10.1101/2025.07.12.664417
 The code is published under MIT license.
 To run, clone or download the whole repository. The code is tested under Python 3.9 and Matlab R2024b.
 
+For a quick demo, just run
+./scripts/class_main_oddball.py   running time： ~1 min
+
+
 ## Figure 2: Omission
-Shell_main_interval_omission.py 
+./scripts/Shell_main_interval_omission.py 
 Requires: class_main_oddball
+
 Please note that due to size limitations, to run the code with the realistic version (i.e., without homeostasis assumption, it is needed to run the code from https://github.com/johnhongyumeng/DuetPredictiveCoding_Plasticity 
 to initiate the local connectivity. 
 
 ## Figure 3:  Matching to MMN
-class_main_oddball_prob.py.     Running time: 7  min
+./scripts/class_main_oddball_prob.py.    
+Running time: 7  min
 ## Figure 4: Number of repetitions.
-Shell_main_nRep.py  
+./scripts/Shell_main_nRep.py  
 Which requires
 class_main_oddball_prob_nRep_dev.py 10 mins
 
