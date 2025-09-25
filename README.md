@@ -4,6 +4,9 @@ Code for: Duet model unifies diverse neuroscience experimental findings on predi
 John H. Meng, Jordan M. Ross, Jordan P. Hamm, Xiao-Jing Wang
 BioRxiv link: https://doi.org/10.1101/2025.07.12.664417
 
+The code is published under MIT license.
+To run, clone or download the whole repository. The code is tested under Python 3.9 and Matlab R2024b.
+
 ## Figure 2: Omission
 Shell_main_interval_omission.py 
 Requires: class_main_oddball
