@@ -37,14 +37,25 @@ Run: ./analyze/
 
 Data analysis:
 To run the code, the original data is needed from Bastos et al., (2023), which can be accessed through
-https://zenodo.org/record/8335415 and
+
+https://zenodo.org/record/8335415
+
+and
+
 https://doi.org/10.5281/zenodo.8335415/ 
+
 After accessing the data, run
+
 ./analyze/BATCH_analyse_modified.m 
+
 ./analyze/BATCH_analyse_plot.m 
- for normalized traces.
+
+for normalized traces.
+
 and run
+
 ./analyze/Analyse_meng_tuningcurve_combine_BH_tuning.m 
+
 for tuning curves.
 
 Please remember to check the commented lines for proper modifications. 
